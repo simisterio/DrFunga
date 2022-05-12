@@ -1,0 +1,19 @@
+#include <Arduino.h>
+#include "../lib/Controller/Controller.hpp"
+#include "../lib/Wifi/Wifi.hpp"
+#include "../lib/WebServerESP/WebServerESP.hpp"
+#include "../lib/Sensor/Sensor.hpp"
+#include "../lib/Rele/Rele.hpp"
+#include "../lib/SensorVoltaje/SensorVoltaje.hpp"
+#include "../lib/SensorHumo/SensorHumo.hpp"
+#include "../lib/SensorTH/SensorTH.hpp"
+#include "../lib/Boton/Boton.hpp"
+#include "../lib/LED/LED.hpp"
+#include "../lib/Calentador/Calentador.hpp"
+
+#include <WiFiUdp.h>
+#include <NTPClient.h>
+#include "FS.h"
+#include "SD.h"
+#include "SPI.h"
+#include <TelnetStream.h>
